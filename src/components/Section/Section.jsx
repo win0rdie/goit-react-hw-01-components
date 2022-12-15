@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types';
+import { SectionCss, Title } from 'components/Statistics/Statistics.styled';
 
 const Section = ({ title, children }) => {
   return (
-    <section className="statistics">
-      <div>
-        {title && <h2 className="title">{title}</h2>}
-        {children}
-      </div>
-    </section>
+    <SectionCss>
+      {title && <Title>{title}</Title>}
+      {children}
+    </SectionCss>
   );
 };
 

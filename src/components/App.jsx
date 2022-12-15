@@ -25,7 +25,7 @@ export const App = () => {
         <StatisticsList stats={statisticsData} />
       </Section>
       <FriendList friends={friends} />
-      <TransactionHistory transactions={transactions} />; //{' '}
+      <TransactionHistory transactions={transactions} />
     </Container>
   );
 };
