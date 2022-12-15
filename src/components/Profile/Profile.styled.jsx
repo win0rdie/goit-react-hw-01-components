@@ -18,6 +18,7 @@ export const ProfileCss = styled.div`
     1px 4px 3px rgba(0, 0, 0, 0.12);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 30px;
+  width: 500px;
 `;
 
 export const Description = styled.div`
@@ -27,11 +28,11 @@ export const Description = styled.div`
   align-content: center;
   align-items: center;
   background-color: #ffffff;
-  padding: 100px;
+  padding: 50px;
 `;
 
 export const Avatar = styled.img`
-  width: 80%;
+  width: 60%;
   display: block;
   background-color: #9b7e6a;
   border-radius: 50%;
